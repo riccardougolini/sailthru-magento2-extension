@@ -96,8 +96,8 @@ class SubscribeIntercept
 
             if ($fullName = $subscriber->getSubscriberFullName()) {
                 $data['vars'] = [
-                    'firstName' => $subscriber->getFirstname(),
-                    'lastName'  => $subscriber->getLastname(),
+                    'first_name' => $subscriber->getFirstname(),
+                    'last_name'  => $subscriber->getLastname(),
                     'name'      => $fullName,
                 ];
             }

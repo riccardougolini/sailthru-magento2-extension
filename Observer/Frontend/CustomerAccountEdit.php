@@ -61,8 +61,8 @@ class CustomerAccountEdit implements ObserverInterface
                     'email' => $email
                 ],
                 'vars'         => [
-                    'firstName' => $customer->getFirstname(),
-                    'lastName'  => $customer->getLastname(),
+                    'first_name' => $customer->getFirstname(),
+                    'last_name'  => $customer->getLastname(),
                     'name'      => "{$customer->getFirstname()} {$customer->getLastname()}"
                 ]
             ];
